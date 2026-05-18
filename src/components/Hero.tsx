@@ -19,18 +19,20 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/e322d745-94dc-424f-bff6-80967268bcb6/files/91470936-9cba-4f29-a0c9-f5d40acf2909.jpg"
+          alt="Город Маркс, набережная Волги"
           className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-black/40" />
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          МАРКС
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+          Город на Волге с богатой историей — откройте памятные места,
+          хранящие память о прошлом
         </p>
       </div>
     </div>
